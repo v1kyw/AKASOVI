@@ -1,3 +1,0 @@
-git rm img-equipamentos 1.jpeg
-git commit -m "Remove arquivo desnecessário"
-git push
