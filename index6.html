@@ -34,8 +34,55 @@
       <a href="./index5.html">Planos</a>
       <a href="./index6.html">Contato</a>
     </nav>
-
   </header>
+
+    <section class="contato-section">
+    <div class="contato-caixa">
+      <h1>Entre em contato!</h1>
+
+      <div class="info-cards">
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Rua Pires da Mota, 838 </p> 
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-phone"></i>
+          <p>+55 (11) 1234-5678</p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-envelope"></i>
+          <p>contato@akasovi.com</p>
+        </div>
+      </div>
+
+       <h2 class="titulo-contato">Insira seus dados e se inscreva.</h2>
+
+      <form class="form-contato">
+        <label for="nome">
+        <h2>Nome:</h2> </label>
+        <input type="text" id="nome" placeholder=" Digite seu nome" name="Nome" required>
+
+        <label for="email">
+        <h2>E-mail:</h2> </label>
+        <input type="email" id="email" placeholder=" Digite seu e-mail" name="Email" required>
+
+        <label for="peso">
+        <h2>Peso:</h2> </label>
+        <input type="number" id="peso" placeholder=" Digite seu peso" name="Peso" required>
+
+        <label for="altura">
+        <h2>Altura:</h2> </label>
+        <input type="number" id="altura" placeholder=" Digite sua altura" name="Altura" required>
+
+        <button type="submit" class="btn-enviar">ENVIAR</button>
+        <h2 class="finalização-formulário">Após o envio dessas informações, enviaremos um e-mail com as informações para o pagamento.</h2>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index6.html">
+        <input type="hidden" name="_captcha" value="false">
+      </form>
+    </div>
+  </section>
   
 </body>
 </html>
