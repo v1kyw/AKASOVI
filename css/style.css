@@ -588,6 +588,7 @@ input[type="radio"]:checked + .tab-label{
   object-fit: cover;
   display: block;
 }
+
 .equipamentos{
   max-width: 1000px;
   width: 100%;
@@ -602,6 +603,7 @@ input[type="radio"]:checked + .tab-label{
   font-size: 28px;
   color: rgb(232, 106, 28);
   margin-bottom: 12px;
+  margin-top: 3rem;
   position: relative;
   display: inline-block;
   font-weight: 700;
@@ -643,7 +645,7 @@ input[type="radio"]:checked + .tab-label{
 
 .cards-content:hover{ 
   transform: translateY(-6px); 
-  box-shadow: 0 18px 40px rgb(32, 31, 31); 
+  box-shadow: 0 18px 40px rgb(232, 106, 28); 
 }
 
 .icone2{ 
@@ -707,7 +709,7 @@ input[type="radio"]:checked + .tab-label{
 }
 
 .jornada{ 
-  margin-top: 6rem;
+  margin-top: 12rem;
 }
 
 .etapas{ 
