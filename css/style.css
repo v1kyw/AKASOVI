@@ -931,11 +931,11 @@ input[type="radio"]:checked + .tab-label{
   gap: 15px;
 }
 
-.form label{
-  font-size: 10px;
+.form label h2{
+  font-size: 14px;
   color: white;
+  margin-bottom: 20px;
   display: block;
-  margin-bottom: 5px
 }
 
 .form input,
@@ -952,10 +952,8 @@ input[type="radio"]:checked + .tab-label{
   border: 2px solid rgb(232, 106, 28);
 }
 
-.form-end{
+.contato h3{
   font-size: 14px;
   color: white;
-  display: block;
-  margin-bottom: 5px;
-  align-items: center;
+  margin-bottom: 20px;
 }
