@@ -17,15 +17,7 @@
   <header>
 
     <a href="./index.html" class="logo">AKASOVI</a>
-    
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    
-    <label for="menu-toggle" class="menu-icon">
-      <span></span> 
-      <span></span> 
-      <span></span>
-    </label>
-
+  
     <nav>
       <a href="./index.html">Sobre</a>
       <a href="./index2.html">Treinos</a>
@@ -34,55 +26,87 @@
       <a href="./index5.html">Planos</a>
       <a href="./index6.html">Contato</a>
     </nav>
+    
   </header>
 
-    <section class="contato-section">
-    <div class="contato-caixa">
+  <section class="contato">
+
+    <div class="contato-box">
       <h1>Entre em contato!</h1>
 
-      <div class="info-cards">
-        <div class="info-card">
-          <i class="fa-solid fa-location-dot"></i>
-          <p>Rua Pires da Mota, 838 </p> 
-        </div>
+    <div class="info-cards">
 
-        <div class="info-card">
-          <i class="fa-solid fa-phone"></i>
-          <p>+55 (11) 1234-5678</p>
-        </div>
-
-        <div class="info-card">
-          <i class="fa-solid fa-envelope"></i>
-          <p>contato@akasovi.com</p>
-        </div>
-      </div>
-
-       <h2 class="titulo-contato">Insira seus dados e se inscreva.</h2>
-
-      <form class="form-contato">
-        <label for="nome">
-        <h2>Nome:</h2> </label>
-        <input type="text" id="nome" placeholder=" Digite seu nome" name="Nome" required>
-
-        <label for="email">
-        <h2>E-mail:</h2> </label>
-        <input type="email" id="email" placeholder=" Digite seu e-mail" name="Email" required>
-
-        <label for="peso">
-        <h2>Peso:</h2> </label>
-        <input type="number" id="peso" placeholder=" Digite seu peso" name="Peso" required>
-
-        <label for="altura">
-        <h2>Altura:</h2> </label>
-        <input type="number" id="altura" placeholder=" Digite sua altura" name="Altura" required>
-
-        <button type="submit" class="btn-enviar">ENVIAR</button>
-        <h2 class="finalização-formulário">Após o envio dessas informações, enviaremos um e-mail com as informações para o pagamento para a realização do início do plano.</h2>
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index6.html">
-        <input type="hidden" name="_captcha" value="false">
-      </form>
+    <div class="info-card">
+      <p><i class="fa-solid fa-location-dot"></i> R. Pires da Mota, 838 - SP</p>
     </div>
+
+    <div class="info-card">
+      <p><i class="fa-solid fa-phone"></i> +55 (11) 1234-5678</p>
+    </div>
+
+    <div class="info-card">
+      <p><i class="fa-solid fa-envelope"></i> contato@akasovi.com</p>
+    </div>
+
+    </div>
+
+      <h2>Insira seus dados e se inscreva.</h2>
+
+  <form class="form">
+    <label for="nome"> <h2>Nome:</h2> </label>
+    <input type="text" id="nome" placeholder=" Digite seu nome" name="Nome" required>
+
+    <label for="email"> <h2>E-mail:</h2> </label>
+    <input type="email" id="email" placeholder=" Digite seu e-mail" name="Email" required>
+
+    <label for="peso"> <h2>Peso:</h2> </label>
+    <input type="number" id="peso" placeholder=" Digite seu peso" name="Peso" required>
+
+    <label for="altura"> <h2>Altura:</h2> </label>
+    <input type="number" id="altura" placeholder=" Digite sua altura" name="Altura" required>
+
+    <button type="submit" class="btn">ENVIAR</button>
+
+    <h2 class="form-end">Após o envio dessas informações, enviaremos um e-mail com as informações para o pagamento para a realização do início do plano.</h2>
+        
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index6.html">
+    <input type="hidden" name="_captcha" value="false">
+  </form>
+  </div>
   </section>
-  
 </body>
+
+<footer class="rodape">
+  <div class="rodape-content">
+    <div>
+      <h2>AKASOVI</h2>
+    </div>
+    
+    <div class="rodape-link">
+      <h3>Navegue</h3>
+      <a href="./index.html">Sobre</a>
+      <a href="./index2.html">Treinos</a>
+      <a href="./index3.html">Equipamentos</a>
+      <a href="./index4.html">Profissionais</a>
+      <a href="./index5.html">Planos</a>
+      <a href="./index6.html">Contato</a>
+    </div>
+
+    <div class="rodape-contato">
+      <h3>Contato</h3>
+        <p><i class="fa-solid fa-location-dot"></i> R. Pires da Mota, 838 - SP</p>
+        <p><i class="fa-solid fa-phone"></i> (11) 3795-1299</p>
+        <p><i class="fa-solid fa-envelope"></i> contato@akasovi.com.br</p>
+    </div>
+
+    <div class="rodape-icones">
+      <h3>Siga-nos</h3>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>
