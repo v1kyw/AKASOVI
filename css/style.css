@@ -133,6 +133,7 @@ header{
   background-color: rgb(204, 201, 201);
   color: black;
   border-radius: 50%;
+  margin: 0 10px;
   font-size: 18px;
   transition: all 0.3s ease;
 }
@@ -503,7 +504,7 @@ input[type="radio"]:checked + .tab-label{
   line-height: 1.6;
   color: rgb(204, 201, 201)
 }
-
+ 
 .home3{
   display: flex;
   flex-direction: row-reverse;
@@ -596,8 +597,8 @@ input[type="radio"]:checked + .tab-label{
 }
 
 .cards-content:hover{ 
-  transform: translateY(-6px); 
-  box-shadow: 0 18px 40px rgb(232, 106, 28); 
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(232, 106, 28, 0.3);
 }
 
 .icone2{ 
@@ -629,53 +630,6 @@ input[type="radio"]:checked + .tab-label{
   margin: 0 auto;
 }
 
-.jornada{ 
-  margin-top: 12rem;
-}
-
-.etapas{ 
-  background: black; 
-  padding: 18px; 
-  border-radius: 14px; 
-  text-align: center;
-}
-
-.etapas h3{
-  font-size: 28px;
-  color: rgb(232, 106, 28);
-  margin-bottom: 12px;
-  position: relative;
-  display: inline-block;
-  font-weight: 700;
-}
-
-.etapa{ 
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  padding: 12px 0; 
-  border-bottom: 1px solid rgba(232, 106, 28, 0.466);
-}
-
-.etapa:last-child {
-  border-bottom: none;
-}
-
-.etapa h4{
-  font-size: 20px;
-  color: rgb(232, 106, 28);
-  margin-bottom: 12px;
-}
-
-.hr3{ 
-  width: 14px; 
-  height: 14px; 
-  border-radius: 50%; 
-  background: var(--accent); 
-  margin-top: 6px; 
-}
-
 .galeria{
   text-align: center;
   padding: 1rem 40px;
@@ -690,7 +644,7 @@ input[type="radio"]:checked + .tab-label{
   position: relative;
   display: inline-block;
   font-weight: 700;
-}
+} 
 
 .galeria-container{
   display: grid;
@@ -698,6 +652,8 @@ input[type="radio"]:checked + .tab-label{
   gap: 15px;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 7rem;
+
 }
 
 .galeria-container img{
@@ -707,7 +663,7 @@ input[type="radio"]:checked + .tab-label{
   border-radius: 10px;
   min-height: 250px;
   max-height: 320px;
-}
+} 
 
 .profissionais{
   background-color: black;
@@ -740,6 +696,7 @@ input[type="radio"]:checked + .tab-label{
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .profissional-card:hover{
