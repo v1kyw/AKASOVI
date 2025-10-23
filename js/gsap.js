@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("load", () => {
   gsap.registerPlugin(ScrollTrigger);
 
   const tl = gsap.timeline({
