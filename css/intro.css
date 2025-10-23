@@ -24,7 +24,7 @@ section {
 .secao1 {
   position: relative;
   z-index: 99;
-  mask-image: url(../intro-img/logo-akasovia.svg);
+  mask-image: url(https://res.cloudinary.com/dtglxnl4z/image/upload/v1761191843/logo-akasovia_yl59z0.svg);
   mask-repeat: no-repeat;
   mask-size: 2800vw;
   mask-position: center;
